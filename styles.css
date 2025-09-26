@@ -1,4 +1,7 @@
 /* ----------------- Class CSS ----------------- */
+* {
+    font-family: 'Cormorant Garamond', 'Times New Roman';
+}
 
 .about{
     width:400px;
@@ -6,27 +9,47 @@
 }
 
 .about-team{
-    color:rgb(82, 81, 81)
+    color:rgb(5, 17, 59);
+    font-family: 'Ballet';
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.card-body {
+    background-color: #040c2e;
+    color: #d6dbe1;
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #7e8894;
+
+}
+
+button:hover {
+    background-color: #a8aeb9;
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-color: rgb(92, 112, 112);
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #040f29;
+    font-family: 'Ballet';
+}
+
+p.lead {
+    color: #aeadb7;
+    font-family: 'Cormorant Garamond', 'Ballet';
+    font-weight: bold;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #040f29;
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -36,7 +59,7 @@
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #7e8894;
 }
 
 .ovPadLeft{
@@ -48,14 +71,30 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #7e8894;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #354158; /*#0096c7*/
 }
 
+.bi bi-arrow-up-circle h2 icon-white:hover {
+    background-color:#a8aeb9;
+}
+
+href[src*='#']:hover {
+    background-color: #ffffff;
+}
+
+h1.ovPadLeft {
+    text-align: left;
+}
+
+img[src*='vinyl'] {
+    height: 40px;
+    width: 90px;
+}
 /* ----------------- ID CSS ----------------- */
 
 /* -----------------Underline Animation CSS -----------------*/
