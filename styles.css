@@ -36,19 +36,29 @@
 
 }
 
+
 #music-picture {
     display:flex;
+    
 }
 
 #genres-image-index {
-    flex: 2 2 300px;
-    max-width: 300px;
-    min-width: 200px;
+    flex-wrap: wrap;
+    width: 200px;
     margin: 0 auto;
 }
 
 button:hover {
     background-color: #a8aeb9;
+}
+
+.table-group-divider {
+    overflow-wrap: wrap;
+    width: 100px;
+}
+
+.short-descrip{
+    color: #6b76b4;
 }
 
 .body{
