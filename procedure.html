@@ -10,7 +10,13 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
    <link rel="stylesheet" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ballet:opsz@16..72&family=Sirivennela&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -23,10 +29,11 @@
         <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
            <!--lg = large breakpoint (based on screen resolution and resizes based on screen size), navbar-dark = makes text light-->
            <div class="container">
-               <a href="index.html" class="navbar-brand">
-                   <img src = "img/vinyl-removebg-preview.png" alt = "Vinyl" class="d-inline-block align-text-top w-50">
-               </a>
-
+               <div class="logo-Vinyl">
+                    <a href="index.html" class="navbar-brand">
+                        <img src = "img/vinyl-removebg-preview.png" alt = "Vinyl" class="d-inline-block align-text-top w-50">
+                    </a>
+               </div>
 
                <!--Hamburger Icon Menu Button-->
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -47,10 +54,6 @@
                            <a href="procedure.html" class="nav-link hover-underline-animation nav-bar nbMenuItem">Procedure</a>
                        </li>
 
-
-                       <li class="nav-item">
-                           <a href="results.html" class="nav-link hover-underline-animation nav-bar nbMenuItem">Results</a>
-                       </li>
                    </ul>
                </div>
            </div>
@@ -60,9 +63,9 @@
        <section class="procedure">
             <div class="container">
                 <br>
-                <div class="text-center">
-                    <h1>Procedure</h1>
-                    <h2>using numbered list, describe your preocudre</h2>
+                <div class="text-center" >
+                    <h1 id="procedure-Title">Procedure</h1>
+                    <h3>List of Steps</h3>
                 </div>
 
                 <hr><br> <!--horiz line followed by line break-->
@@ -83,11 +86,11 @@
                             </th> <!--th is header for row--> <!--scope = row specifies a row header cell-->
 
                             <td >
-                                <h3 class="howTo">Start Python Flask Server</h3>
+                                <h3 class="howTo">Set up <abbr title="electroencephalogram">EEG</abbr> and music</h3>
                             </td>
 
                             <td class="text-center"> <!--first row end-->
-                                <img src="img/python-logo.png" alt="Python Logo">
+                                <img src="img/step1.png" alt="Picture of EEG and mp3 player">
                             </td>
                         </tr>
 
@@ -98,11 +101,11 @@
                             </th> <!--th is header for row--> <!--scope = row specifies a row header cell-->
 
                             <td >
-                                <h3 class="howTo">Power the circuit on</h3>
+                                <h3 class="howTo">Start the experiment with the control, which is silence, and have the participant memorize the pattern for 4 minutes</h3>
                             </td>
 
                             <td class="text-center"> <!--first row end-->
-                                <img src="img/range-finder-tp.png" alt="SR04 range finder">
+                                <img src="img/step2.png" alt="Pattern">
                             </td>
                         </tr>
                             <!--third row-->
@@ -112,11 +115,11 @@
                             </th> <!--th is header for row--> <!--scope = row specifies a row header cell-->
 
                             <td >
-                                <h3 class="howTo">Nano IoT</h3>
+                                <h3 class="howTo">Record the brainwave data for those four minutes</h3>
                             </td>
 
                             <td class="text-center"> <!--first row end-->
-                                <img src="img/nano33-iot3.png" alt="Nano">
+                                <img src="img/step3.png" alt="Brainwave Data">
                             </td>
                         </tr>    
 
@@ -129,11 +132,11 @@
                             </th> <!--th is header for row--> <!--scope = row specifies a row header cell-->
 
                             <td >
-                                <h3 class="howTo">Arduino and Flask Server</h3>
+                                <h3 class="howTo">Have the participant recite the pattern for that genre</h3>
                             </td>
 
                             <td class="text-center"> <!--first row end-->
-                                <img src="img/arduino-logo.png" alt="Arduino logo">
+                                <img src="img/step2.png" alt="Pattern">
                             </td>
                         </tr>
 
@@ -144,11 +147,26 @@
                             </th> <!--th is header for row--> <!--scope = row specifies a row header cell-->
 
                             <td >
-                                <h3 class="howTo">Flask connects</h3>
+                                <h3 class="howTo">Repeat for the 4 genres of music</h3>
                             </td>
 
                             <td class="text-center"> <!--first row end-->
-                                <img src="img/firebase-logo.png" alt="firebase logo">
+                                <img src="img/step5.png" alt="In Utero by Nirvana, Twin Fantasy by Car Seat Headrest, Loveless by My Bloody Valentine, and Cigarettes After Sex after Cigarettes After Sex">
+                            </td>
+                        </tr>
+
+                        <tr class="align-middle">
+                            <!--fifth row-->
+                            <th scope="row" class="table-secondary"> <!--first row start-->
+                                <h3>5</h3>
+                            </th> <!--th is header for row--> <!--scope = row specifies a row header cell-->
+
+                            <td >
+                                <h3 class="howTo">Compare intensity of high beta and gamma waves for each genre</h3>
+                            </td>
+
+                            <td class="text-center"> <!--first row end-->
+                                <img src="img/step3.png" alt="Brainwave Data">
                             </td>
                         </tr>
 

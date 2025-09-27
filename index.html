@@ -34,9 +34,11 @@
        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
            <!--lg = large breakpoint (based on screen resolution and resizes based on screen size), navbar-dark = makes text light-->
            <div class="container">
-               <a href="index.html" class="navbar-brand">
-                   <img src = "img/vinyl-removebg-preview.png" alt = "Vinyl" class="d-inline-block align-text-top w-50">
-               </a>
+               <div class="logo-Vinyl">
+                    <a href="index.html" class="navbar-brand">
+                        <img src = "img/vinyl-removebg-preview.png" alt = "Vinyl" class="d-inline-block align-text-top w-50">
+                    </a>
+               </div>
 
 
 
@@ -64,12 +66,6 @@
                            <a href="procedure.html" class="nav-link hover-underline-animation nav-bar nbMenuItem">Procedure</a>
                        </li>
 
-
-
-
-                       <li class="nav-item">
-                           <a href="results.html" class="nav-link hover-underline-animation nav-bar nbMenuItem">Results</a>
-                       </li>
                    </ul>
                </div>
            </div>
@@ -85,7 +81,10 @@
                <div class="row">
                    <div class="col-sm-6k p-0 d-flex align-items-center">
                        <!--saying we using 6 boxes worth of width-->
-                       <img class="img-fluid" src="img/img-5509.jpg" alt="Shark River">
+                       <div id="eeg-image">
+                        <img class="img-EEG" src="img/emotiv.png" alt="Emotiv Insight EEG">
+                       </div>
+                       
                        <!--img-fluid = wont' expand image larger than the container and will scale image down if the browser window is narrowed-->
 
 
@@ -94,7 +93,7 @@
                    </div>
                    <div class="col-sm-6k p-0 d-flex align-items-center">
                        <div class="container">
-                           <h1 class="display-4">The Impact of Genres of Music on Brain Activity When Memorizing a Series of Patterns</h2>
+                           <h1 class="display-4" id="index-Title">The Impact of Genres of Music on Brain Activity When Memorizing a Series of Patterns</h2>
                        </div>
                    </div>
                </div>
@@ -106,12 +105,29 @@
        <section class="overview text-dark p-2 text-left">
            <div class="container">
                <div class="row"> <!--Row 1-->
-                   <div class="col-sm-4 p-3">
-                       <img class="img-fluid" src="img/19418.jpeg" alt="Water Temperature Graph">
+                   <div class="col-sm-4 p-3" id="music-picture">
+                       <img class="img-fluid" src="img/step5.png" alt="Music Genre Accuracy" id="genres-image-index">
                    </div>
                    <div class="col-sm-8 p-3">
                        <h1 class="ovPadLeft">Background</h1>
-                       <p class="lead overview-font ovPadLeft" id="">Sample text</p>
+                       <ul class="ind-lists">
+                        <li>
+                            Different genres of music have varying effects on the mind.
+                        </li>
+                        <li>
+                            When listening to music, the brain analyzes the components of the music.
+                        </li>
+
+                        <li>
+                            Different genres with distinct components will have different effects on the brain
+                        </li>
+
+                        <li>
+                            This study investigates how genres of music affect brain activity during cognitive functioning.
+                        </li>
+
+                       </ul>
+                       
                    </div>
                </div>
 
@@ -119,10 +135,31 @@
                <div class="row"> <!--Row 2-->
                    <div class="col-sm-8 p-3">
                        <h1>Rationale</h1>
-                       <p class="lead overview-font ovPadRight" id="">Sample text</p>
+                       <ul class="ind-lists">
+                        <li>
+                            Places with lower education efficiency tend to be worse off than those with higher ones
+                        </li>
+                        
+                        <li>
+                            Utilization of music to harness the complete capacity of human learning still in progress
+                        </li>
+
+                        <li>
+                            This study contributes more data and information to further drive this movement toward educational growth
+                        </li>
+
+                        <li>
+                            This study contributes more data and information to the study of music to further drive this movement toward educational growth
+                        </li>
+
+                        <li>
+                            Study sought to find which parts of music best enhances brain function to the greatest extent
+                        </li>
+
+                       </ul>
                    </div>
                    <div class="col-sm-4 p-3">
-                       <img class="img-fluid" src="img/watermap.jpg" alt="Water Map">
+                       <img class="img-fluid" src="img/education.png" alt="Education">
                    </div>
                </div>
 

@@ -15,6 +15,17 @@
     font-size: 45px;
 }
 
+.ind-lists {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(5, 17, 59);
+}
+
+#eeg-image {
+    margin: 0 auto;
+    width:600px;
+}
+
 .card-body {
     background-color: #040c2e;
     color: #d6dbe1;
@@ -23,6 +34,17 @@
 .authors{
     background-color: #7e8894;
 
+}
+
+#music-picture {
+    display:flex;
+}
+
+#genres-image-index {
+    flex: 2 2 300px;
+    max-width: 300px;
+    min-width: 200px;
+    margin: 0 auto;
 }
 
 button:hover {
@@ -36,16 +58,21 @@ button:hover {
 .footer{
     background-color: #040f29;
     font-family: 'Ballet';
+    width: 100%;
 }
 
 p.lead {
-    color: #aeadb7;
+    color: #adb0b7;
     font-family: 'Cormorant Garamond', 'Ballet';
     font-weight: bold;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
     color: #ffffff;
+}
+
+.icon-white:hover {
+    color:#354158;
 }
 
 .nb-background-color{   /* navbar background color */
@@ -59,7 +86,7 @@ p.lead {
 }
 
 .overview{
-    background-color: #7e8894;
+    background-color: #adb9c9;
 }
 
 .ovPadLeft{
@@ -91,9 +118,31 @@ h1.ovPadLeft {
     text-align: left;
 }
 
-img[src*='vinyl'] {
-    height: 40px;
-    width: 90px;
+.logo-Vinyl {
+    display:flex;
+}
+
+img[src*='vinyl' i] {
+    flex: 1 2 50px;
+
+    
+}
+
+
+
+img[src*='emotiv'] {
+    width: 100%;
+}
+
+img[src*='step'] {
+    height: 200px;
+}
+
+#procedure-Title {
+    font-family: "Ballet";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(5, 17, 59);
 }
 /* ----------------- ID CSS ----------------- */
 
