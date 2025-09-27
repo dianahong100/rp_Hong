@@ -37,6 +37,10 @@
 }
 
 
+#web-logo {
+    height: 20px;
+}
+
 #music-picture {
     display:flex;
     
@@ -44,7 +48,6 @@
 
 #genres-image-index {
     flex-wrap: wrap;
-    width: 200px;
     margin: 0 auto;
 }
 
@@ -52,10 +55,10 @@ button:hover {
     background-color: #a8aeb9;
 }
 
-.table-group-divider {
-    overflow-wrap: wrap;
-    width: 100px;
+.table-div {
+    overflow: scroll;
 }
+
 
 .short-descrip{
     color: #6b76b4;
@@ -128,19 +131,8 @@ h1.ovPadLeft {
     text-align: left;
 }
 
-.logo-Vinyl {
-    display:flex;
-}
 
-img[src*='vinyl' i] {
-    flex: 1 2 50px;
-
-    
-}
-
-
-
-img[src*='emotiv'] {
+.img-EEG {
     width: 100%;
 }
 
