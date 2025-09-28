@@ -46,6 +46,14 @@
     display:flex;
 }
 
+#diana-card {
+    width: 100%;
+}
+
+#queenan-card {
+    width: 100%;
+}
+
 #genres-image-index {
     flex-wrap: wrap;
     margin: 0 auto;
