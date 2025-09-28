@@ -59,6 +59,9 @@ button:hover {
     overflow: scroll;
 }
 
+#auth-cards {
+    overflow: scroll;
+}
 
 .short-descrip{
     color: #6b76b4;
