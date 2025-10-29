@@ -47,11 +47,11 @@
 }
 
 #diana-card {
-    width: 100%;
+    width: 90%;
 }
 
 #queenan-card {
-    width: 100%;
+    width: 90%;
 }
 
 #genres-image-index {
@@ -63,12 +63,12 @@ button:hover {
     background-color: #a8aeb9;
 }
 
-.table-div {
-    overflow: scroll;
-}
 
-#auth-cards {
-    overflow: scroll;
+#auth-img, #proc-img {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    align-self: center;
 }
 
 .short-descrip{
@@ -157,7 +157,10 @@ img[src*='step'] {
     font-weight: bold;
     color: rgb(5, 17, 59);
 }
-/* ----------------- ID CSS ----------------- */
+
+#procedure-images {
+    width: 20%;
+}
 
 /* -----------------Underline Animation CSS -----------------*/
 .hover-underline-animation {
