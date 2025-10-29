@@ -21,6 +21,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
                 integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
                 crossorigin="anonymous"></script>
+
+    <!--<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="js/chartmean.js" defer></script>
 </head>
 
 <body class="body">
@@ -58,42 +62,12 @@
              </div>
         </nav>
 
-        <!-- About the Team-->
-        <section class="authors">
-            <div class="container">
-                <br>    <!-- Line break-->
-                <h1 class="text-center about-team">About the Team</h1>
-                <hr><br> <!-- Horizontal line and line break-->
-
-                <!-- Card organized in 2 x 2 table format-->
-                 <div class="row row-cols-1 row-cols-md-2 g-4" id="auth-cards">
-
-                    <div class ="col">
-                        <div class="card about" id="diana-card">
-                            <img src="img/diana.png" class ="card-image-top" alt="Diana Hong">
-                            <div class="card-body">
-                                <h4 class="card-title">Diana Hong</h4>
-                                <h5>Class: Research Practicum</h5>
-                                <p class="card-text">Main researcher: conducted the research and wrote the research paper</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class ="col">
-                        <div class="card about" id="queenan-card">
-                            <img src="img/queenan.jpg" class ="card-image-top" alt="Craig Queenan">
-                            <div class="card-body">
-                                <h4 class="card-title">Mr. Craig Queenan</h4>
-                                <h5>Class: Research Practicum</h5>
-                                <p class="card-text">Research mentor: supervised the research process and provided assistance</p>
-                            </div>
-                        </div>
-                    </div>
-
-                 </div>  <!-- Closing tag for row-->
-            </div> <!-- Closing tag for container-->
+        <section class="chartjs-sample">
+            <div class="container d-flex overflow-hidden bg-light rounded-4" id="chart-wrapper">
+                <canvas id="hongRadarChart"></canvas>
+            </div>
         </section>
+
 
         <!-- Footer (require a Bootstrap icon)-->
         <footer class="p-5 footer text-light text-center position-relative">
