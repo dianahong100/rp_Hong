@@ -114,12 +114,12 @@ async function createChart(){
                    label:    'Control',     // Dataset label for legend
                    data:     [data.mean[4], data.standDev[4], data.variation[4], data.trials[4]],    // Reference to array
                    fill:     false,           // Fill area under the linechart (true = yes, false = no)
-                   backgroundColor: 'rgba(255, 156, 99, 0.2)',
-                   borderColor: 'rgba(255, 182, 99, 1)',
-                   pointBackgroundColor: 'rgba(255, 169, 99, 1)',
+                   backgroundColor: 'rgba(99, 211, 255, 0.2)',
+                   borderColor: 'rgba(99, 193, 255, 1)',
+                   pointBackgroundColor: 'rgba(99, 185, 255, 1)',
                    pointBorderColor: '#fff',
                    pointHoverBackgroundColor: '#fff',
-                   pointHoverBorderColor: 'rgba(255, 161, 99, 1)'
+                   pointHoverBorderColor: 'rgba(99, 185, 255, 1)'
                }
        ]
        },
