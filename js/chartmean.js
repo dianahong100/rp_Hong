@@ -139,9 +139,18 @@ async function createChart(){
                 }
             },
             legend: {
-                align: 'start',
-                position: 'bottom'
+                align: 'center',
+                position: 'top',
+                labels: {
+                    font: {
+                        size: 14
+                    },
+                    padding: 10
+                }
             }
+        },
+        scales: {
+            
         }
        }
    });
