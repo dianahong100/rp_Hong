@@ -3,8 +3,8 @@
 
 async function getData(){
    const response = await fetch('/data/results.csv') // .. to move up one folder
-   const data = await response.text();             // CSV to TEXT format
-   console.log(data);
+   const rawData = await response.text();             // CSV to TEXT format
+   console.log(rawData);
 
 
    const genres = [];          // genres
@@ -19,7 +19,7 @@ async function getData(){
    // slice(start, end) - return a new array starting at index 'start' up to and including 'end'
 
 
-   const table = data.split('\n').slice(1)     //Split by line and remove first row
+   const table = rawData.split('\n').slice(1)     //Split by line and remove first row
    //console.log(table);
 
 
